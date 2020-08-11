@@ -12,5 +12,17 @@
             "homepage": "http://gracefulcode.com",
             "role": "Developer"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "GracefulCode\\Laravel\\Auth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GracefulCode\\Laravel\\Auth\\ServiceProvider"
+            ]
+        }
+    }
 }
