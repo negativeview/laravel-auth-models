@@ -21,7 +21,7 @@ class ServiceProvider extends LaravelServiceProvider
         ]);
         $this->loadViewsFrom(__DIR__ . '/views/', 'auth');
         $this->publishes([
-            __DIR__ . '/assets/components.js' => public_path('vendor/auth')
+            __DIR__ . '/assets/components.js' => public_path('vendor/auth/components.js')
         ], 'public');
     }
 }
