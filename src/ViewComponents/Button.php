@@ -40,6 +40,6 @@ class Button extends Component
      */
     public function render()
     {
-        return view('auth.button');
+        return view('auth::button');
     }
 }
