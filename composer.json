@@ -1,0 +1,16 @@
+{
+    "name": "negativeview/laravel-auth-models",
+    "type": "library",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://gracefulcode.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Grace",
+            "email": "dgrace@gracefulcode.com",
+            "homepage": "http://gracefulcode.com",
+            "role": "Developer"
+        }
+    ],
+}
