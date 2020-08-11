@@ -3,6 +3,7 @@
 namespace GracefulCode\Laravel\Auth;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
+use GracefulCode\Laravel\Auth\ViewComponents\Button;
 
 class ServiceProvider extends LaravelServiceProvider
 {
