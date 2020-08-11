@@ -18,5 +18,6 @@ class ServiceProvider extends LaravelServiceProvider
         $this->loadViewComponentsAs('auth', [
             Button::class
         ]);
+        $this->loadViewsFrom(__DIR__ . '/views/', 'auth');
     }
 }
